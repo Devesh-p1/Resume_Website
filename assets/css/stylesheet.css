@@ -1,8 +1,13 @@
 html {
   min-height: 1000px;
+  background-color: #468189;
 }
-
-
+body {
+  background-color: #468189;
+}
+header, footer {
+  background-color: #468189;
+}
 .container-fluid {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -62,7 +67,7 @@ html {
   }
 
   .header {
-    color: #12232e;
+    background-color: #77ACA2;
   }
 
   .lead {
@@ -76,6 +81,11 @@ html {
     overflow: hidden;
   }
 
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
   #cheading {
     display: inline-block;
     position: relative; left: 400px; bottom: 245px;
